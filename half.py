@@ -5,12 +5,12 @@ print("""
        """)
 equation=int(input("===Enter equation rank 1 to 3(for fast result) or up: "))+1
 answer=float(input("===Equation =? : "))
-#i=0
+i=0
 #a,b,c,d=0,0,0,0
 #fs1,fs2,fs3,fs4="    "
 def y():
     nrd=int(input("===Num Of Digits After ',' 2 for 0.00 3 for 0.000 or any: "))  #num_results_digits
-    nrdx=str(float(nrd/(10**nrd)))
+    nrdx=(float(nrd/(10**nrd)))
     x=float(input("===Enter x start point: "))
     l= float(input("===Enter x reach limit: "))
     r=0
@@ -30,7 +30,6 @@ def y():
         #for (int(i) < equation):
         for i in range(equation):
             cashe1=cashe1+(numerical_coefficients[i]*(x**(equation-i)))
-                           
         serie1=cashe1
         serie2=0
         cashe2=0
@@ -51,10 +50,10 @@ def y():
         fs3=str(float(serie1))
         fs4=str(float(serie2))
         r=x
-        x=x+float(nrdx[0:nrd])
-        #print("==="+serie1,serie2)
+        x=x+float(nrdx)
+        #print("===",serie1,serie2)
         if float(serie1)*float(serie2)<0 :
-            print("==="+"x range: ["+fs2[0:4]+" to",fs1[0:4]+"] ,","f(x) range: ["+fs4[0:6]+" to",fs3[0:6]+"]")
+            print("==="+"x range: ["+fs2[0:nrd+2]+" to",fs1[0:nrd+2]+"] ,","f(x) range: ["+fs4[0:nrd+4]+" to",fs3[0:nrd+4]+"]")
 def result(answer):
     func_list=[y(),1,2,3]#1,2 and 3 replace other functions will add later
     if answer==0:
@@ -65,3 +64,4 @@ def result(answer):
 
 #func_list[equation]
 result(answer)
+
