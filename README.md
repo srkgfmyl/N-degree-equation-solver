@@ -21,6 +21,10 @@ In [-1;2].
 (4) Using a graphing calculator, find out for this solution its capacity
 10².
 -----------------------------------------
+Picture of the task in arabic:
+![image](https://user-images.githubusercontent.com/126519354/227034239-0530635f-685e-49a6-8d7f-1eae120b95a1.png)
+
+-----------------------------------------
 the answer for (4) is: x range: [1.66 to 1.68] , f(x) range: [-0.196 to 0.0269]
 -------------------------------------------------------------------------------
 with those inputs:
