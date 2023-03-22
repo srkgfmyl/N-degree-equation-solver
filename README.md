@@ -1,12 +1,12 @@
-# The-ABC-formula-solver
-this script can solve any ABC formula from any rank 
-----------------------------------------------------
+# N-degree equation solver
+this script can solve any N-degree equation but it's slow 
+---------------------------------------------------------
 this is my first script in python
 i did code it without any experience in python, i just know half the basics
 as i started learning it to solve a question in my math book for 12th grade.
 i did this just for fun and it wasn't hard ,because i have some knoledge about
 tech and computer science.
-----------------------------------------------------
+---------------------------------------------------------
 The math question that i used to do this 
 ----------------------------------------
 TASK:
